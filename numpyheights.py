@@ -15,7 +15,7 @@ print((heights_arr > 188).sum())
 
 # .size apresenta o tamanho, ou a quantidade de itens dentro da array
 heights_arr = np.array(heights)
-print(heights_arr.size
+print(heights_arr.size)
 # Out: 45
 
 # .shape apresenta um tupple com o tamanho do array e a quantidade de dimensões da array
