@@ -8,5 +8,10 @@ heights = [189, 170, 189, 163, 183, 171, 185,
            193, 182, 183, 177, 185, 188, 188,
            182, 185, 191]
 
+# .sum() apresenta a quantidade de valores iguais dentro da array
 heights_arr = np.array(heights)
 print((heights_arr > 188).sum())
+
+# .size apresenta o tamanho, ou a quantidade de itens dentro da array
+heights_arr = np.array(heights)
+print(heights_arr.size)
