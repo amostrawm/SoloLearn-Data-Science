@@ -31,3 +31,4 @@ print(heights_and_ages_arr[0, :3])
 
 # Aqui podemos visualizar a terceira coluna inteira
 print(heights_and_ages_arr[:, 1])
+

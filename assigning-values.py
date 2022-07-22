@@ -24,3 +24,15 @@ heights_and_ages_arr = heights_and_ages_arr.reshape(2, 45)
 # Assimilando valores em um array 1d ou 2d
 heights_and_ages_arr[0, 3] = 165
 print(heights_and_ages_arr[0, 3])
+
+# Assimilando valores em uma coluna inteira
+heights_and_ages_arr[0, :] = 180
+print(heights_and_ages_arr[0, :])
+
+
+# Assimilando dois valores em todas as colunas (:2) e em todas as linhas (:2)
+# Deixando o espaço antes do : vazio significa assimular em tudo até o limite delimitado em :2
+heights_and_ages_arr[:2, :2] = 0
+print(heights_and_ages_arr)
+# [NOTA] se deixar o limite vazio "heights_and_ages_arr[:, :] = 0"
+# A array inteira será assimilada em 0
