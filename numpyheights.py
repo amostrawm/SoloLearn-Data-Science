@@ -22,3 +22,7 @@ print(heights_arr.size)
 heights_arr = np.array(heights)
 print(heights_arr.shape)
 # Out: (45,)
+
+# .dtype apresenta o tipo do valor
+heights_arr = np.array(heights)
+print(heights_arr.dtype)
