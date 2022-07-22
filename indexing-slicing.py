@@ -18,8 +18,16 @@ ages = [57, 61, 57, 57, 58, 57, 61,
         55, 56, 61, 52, 69, 64, 46,
         54, 47, 70]
 
+# Aqui podemos chamar os valores através dos índices em um array 2d.
 heights_and_ages = heights + ages
 heights_and_ages_arr = np.array(heights_and_ages)
 heights_and_ages_arr = heights_and_ages_arr.reshape(2, 45)
 print(heights_and_ages_arr[0, 2])
 print(heights_and_ages_arr[1, 2])
+
+# Aqui podemos chamar os tres primeiros valores de um array 2d.
+# [NOTA] Se for buscar algo com índice 0 pode deixar vazio a segunda coluna.
+print(heights_and_ages_arr[0, :3])
+
+# Aqui podemos visualizar a terceira coluna inteira
+print(heights_and_ages_arr[:, 3])
