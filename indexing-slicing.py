@@ -29,6 +29,6 @@ print(heights_and_ages_arr[1, 2])
 # [NOTA] Se for buscar algo com índice 0 pode deixar vazio a segunda coluna.
 print(heights_and_ages_arr[0, :3])
 
-# Aqui podemos visualizar a terceira coluna inteira
+# Aqui podemos visualizar a segunda coluna inteira
 print(heights_and_ages_arr[:, 1])
 

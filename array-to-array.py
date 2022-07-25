@@ -27,3 +27,9 @@ print(heights_and_ages_arr)
 # Onde ":" significa alterar todas as linhas e 0 na primeira coluna
 heights_and_ages_arr[:, 0] = [190, 58]
 print(heights_and_ages_arr[:, 0])
+
+# Adicionando uma sub array dentro de outra array
+new_record = np.array([[180, 183, 190], [54, 50, 69]])
+# Aqui o 42: significa adicionar a partir do 42 pra frente
+heights_and_ages_arr[:, 42:] = new_record
+print(heights_and_ages_arr)
