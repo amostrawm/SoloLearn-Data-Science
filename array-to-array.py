@@ -33,3 +33,6 @@ new_record = np.array([[180, 183, 190], [54, 50, 69]])
 # Aqui o 42: significa adicionar a partir do 42 pra frente
 heights_and_ages_arr[:, 42:] = new_record
 print(heights_and_ages_arr)
+
+# Adicionar uma array de um numero pra frente dentro de uma outra array é possivel
+# Desde que o tamanho permita que seja adicionado
