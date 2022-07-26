@@ -25,6 +25,15 @@ ages_arr = ages_arr.reshape((45, 1))
 heights_arr = heights_arr.reshape((45, 1))
 
 # Unindo as duas arrays em um array 2d, com a altura na coluna x e idade na coluna y
+# [Unindo arrays horizontalmente (em linhas)]
 heights_age_arr = np.hstack((heights_arr, ages_arr))
 print(heights_age_arr.shape)
 print(heights_age_arr[:3, ])
+
+# [Unindo arrays verticalmente (em colunas)]
+heights_arr = heights_arr.reshape((1, 45))
+ages_arr = ages_arr.reshape((1, 45))
+
+heights_age_arr = np.vstack((heights_arr, ages_arr))
+print(heights_age_arr.shape)
+print(heights_age_arr[:, :3])
